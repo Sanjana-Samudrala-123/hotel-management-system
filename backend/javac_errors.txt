@@ -1,0 +1,1281 @@
+﻿javac : C:\Users\samud\
+OneDrive\Desktop\HotelM
+anagementSystem\backend
+\src\main\java\com\hote
+l\management\HotelManag
+ementSystemApplication.
+java:3: error: package 
+org.springframework.boo
+t does not exist
+At line:1 char:102
++ ... FullName }; 
+javac -cp 
+"target/classes;lib/*" 
+-d target/classes 
+$files ...
++                 ~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (C:\Users\samu   
+ d\... does not exi    
+st:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+import org.springframew
+ork.boot.SpringApplicat
+ion;
+                       
+        ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\HotelManagementSys
+temApplication.java:4: 
+error: package org.spri
+ngframework.boot.autoco
+nfigure does not exist
+import org.springframew
+ork.boot.autoconfigure.
+SpringBootApplication;
+                       
+                      ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\HotelManagementSys
+temApplication.java:6: 
+error: cannot find 
+symbol
+@SpringBootApplication
+ ^
+  symbol: class 
+SpringBootApplication
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\AdminCo
+ntroller.java:4: 
+error: package org.spri
+ngframework.beans.facto
+ry.annotation does not 
+exist
+import org.springframew
+ork.beans.factory.annot
+ation.Autowired;
+                       
+                       
+     ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\AdminCo
+ntroller.java:9: 
+error: cannot find 
+symbol
+@RestController
+ ^
+  symbol: class 
+RestController
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\AdminCo
+ntroller.java:10: 
+error: cannot find 
+symbol
+@RequestMapping("/admin
+")
+ ^
+  symbol: class 
+RequestMapping
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\AdminCo
+ntroller.java:11: 
+error: cannot find 
+symbol
+@CrossOrigin(origins = 
+"*")
+ ^
+  symbol: class 
+CrossOrigin
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\repository\RoomRep
+ository.java:5: error: 
+package org.springframe
+work.data.jpa.repositor
+y does not exist
+import org.springframew
+ork.data.jpa.repository
+.JpaRepository;
+                       
+                       
+^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\repository\RoomRep
+ository.java:8: error: 
+cannot find symbol
+public interface 
+RoomRepository extends 
+JpaRepository<Room, 
+Long> {
+                       
+                 ^
+  symbol: class 
+JpaRepository
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\Room.java:4:
+ error: package lombok 
+does not exist
+import lombok.Data;
+             ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\Room.java:6:
+ error: cannot find 
+symbol
+@Entity
+ ^
+  symbol: class Entity
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\Room.java:7:
+ error: cannot find 
+symbol
+@Data
+ ^
+  symbol: class Data
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\repository\Custome
+rRepository.java:4: 
+error: package org.spri
+ngframework.data.jpa.re
+pository does not exist
+import org.springframew
+ork.data.jpa.repository
+.JpaRepository;
+                       
+                       
+^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\repository\Custome
+rRepository.java:6: 
+error: cannot find 
+symbol
+public interface 
+CustomerRepository 
+extends JpaRepository<C
+ustomer, Long> {
+                       
+                     ^
+  symbol: class 
+JpaRepository
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\Customer.jav
+a:4: error: package 
+lombok does not exist
+import lombok.Data;
+             ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\Customer.jav
+a:6: error: cannot 
+find symbol
+@Entity
+ ^
+  symbol: class Entity
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\Customer.jav
+a:7: error: cannot 
+find symbol
+@Data
+ ^
+  symbol: class Data
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\repository\Booking
+Repository.java:4: 
+error: package org.spri
+ngframework.data.jpa.re
+pository does not exist
+import org.springframew
+ork.data.jpa.repository
+.JpaRepository;
+                       
+                       
+^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\repository\Booking
+Repository.java:7: 
+error: cannot find 
+symbol
+public interface 
+BookingRepository 
+extends 
+JpaRepository<Booking, 
+Long> {
+                       
+                    ^
+  symbol: class 
+JpaRepository
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\Booking.java
+:4: error: package 
+lombok does not exist
+import lombok.Data;
+             ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\Booking.java
+:7: error: cannot find 
+symbol
+@Entity
+ ^
+  symbol: class Entity
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\Booking.java
+:8: error: cannot find 
+symbol
+@Data
+ ^
+  symbol: class Data
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\repository\FoodOrd
+erRepository.java:4: 
+error: package org.spri
+ngframework.data.jpa.re
+pository does not exist
+import org.springframew
+ork.data.jpa.repository
+.JpaRepository;
+                       
+                       
+^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\repository\FoodOrd
+erRepository.java:7: 
+error: cannot find 
+symbol
+public interface 
+FoodOrderRepository 
+extends JpaRepository<F
+oodOrder, Long> {
+                       
+                      ^
+  symbol: class 
+JpaRepository
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\FoodOrder.ja
+va:4: error: package 
+lombok does not exist
+import lombok.Data;
+             ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\FoodOrder.ja
+va:8: error: cannot 
+find symbol
+@Entity
+ ^
+  symbol: class Entity
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\FoodOrder.ja
+va:9: error: cannot 
+find symbol
+@Data
+ ^
+  symbol: class Data
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\OrderItem.ja
+va:4: error: package 
+lombok does not exist
+import lombok.Data;
+             ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\OrderItem.ja
+va:6: error: cannot 
+find symbol
+@Entity
+ ^
+  symbol: class Entity
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\OrderItem.ja
+va:7: error: cannot 
+find symbol
+@Data
+ ^
+  symbol: class Data
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\FoodItem.jav
+a:4: error: package 
+lombok does not exist
+import lombok.Data;
+             ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\FoodItem.jav
+a:6: error: cannot 
+find symbol
+@Entity
+ ^
+  symbol: class Entity
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\FoodItem.jav
+a:7: error: cannot 
+find symbol
+@Data
+ ^
+  symbol: class Data
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\AdminCo
+ntroller.java:5: 
+error: package org.spri
+ngframework.web.bind.an
+notation does not exist
+import org.springframew
+ork.web.bind.annotation
+.*;
+^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\FoodOrder.ja
+va:3: error: package 
+jakarta.persistence 
+does not exist
+import 
+jakarta.persistence.*;
+^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\OrderItem.ja
+va:3: error: package 
+jakarta.persistence 
+does not exist
+import 
+jakarta.persistence.*;
+^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\FoodItem.jav
+a:3: error: package 
+jakarta.persistence 
+does not exist
+import 
+jakarta.persistence.*;
+^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\Booking.java
+:3: error: package 
+jakarta.persistence 
+does not exist
+import 
+jakarta.persistence.*;
+^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\Customer.jav
+a:3: error: package 
+jakarta.persistence 
+does not exist
+import 
+jakarta.persistence.*;
+^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\Room.java:3:
+ error: package 
+jakarta.persistence 
+does not exist
+import 
+jakarta.persistence.*;
+^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\AuthCon
+troller.java:5: error: 
+package org.springframe
+work.beans.factory.anno
+tation does not exist
+import org.springframew
+ork.beans.factory.annot
+ation.Autowired;
+                       
+                       
+     ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\AuthCon
+troller.java:6: error: 
+package org.springframe
+work.http does not 
+exist
+import org.springframew
+ork.http.ResponseEntity
+;
+                       
+        ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\AuthCon
+troller.java:9: error: 
+cannot find symbol
+@RestController
+ ^
+  symbol: class 
+RestController
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\AuthCon
+troller.java:10: 
+error: cannot find 
+symbol
+@RequestMapping("/auth"
+)
+ ^
+  symbol: class 
+RequestMapping
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\AuthCon
+troller.java:11: 
+error: cannot find 
+symbol
+@CrossOrigin(origins = 
+"http://localhost:5173"
+)
+ ^
+  symbol: class 
+CrossOrigin
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\service\AuthServic
+e.java:5: error: 
+package org.springframe
+work.beans.factory.anno
+tation does not exist
+import org.springframew
+ork.beans.factory.annot
+ation.Autowired;
+                       
+                       
+     ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\service\AuthServic
+e.java:6: error: 
+package org.springframe
+work.stereotype does 
+not exist
+import org.springframew
+ork.stereotype.Service;
+                       
+              ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\service\AuthServic
+e.java:9: error: 
+cannot find symbol
+@Service
+ ^
+  symbol: class Service
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\User.java:4:
+ error: package lombok 
+does not exist
+import lombok.Data;
+             ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\User.java:6:
+ error: cannot find 
+symbol
+@Entity
+ ^
+  symbol: class Entity
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\User.java:7:
+ error: cannot find 
+symbol
+@Data
+ ^
+  symbol: class Data
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\User.java:8:
+ error: cannot find 
+symbol
+@Table(name = "users")
+ ^
+  symbol: class Table
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\AuthCon
+troller.java:17: 
+error: cannot find 
+symbol
+    public 
+ResponseEntity<?> 
+register(@RequestBody 
+User user) {
+           ^
+  symbol:   class 
+ResponseEntity
+  location: class 
+AuthController
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\AuthCon
+troller.java:26: 
+error: cannot find 
+symbol
+    public 
+ResponseEntity<?> 
+login(@RequestBody 
+User loginRequest) {
+           ^
+  symbol:   class 
+ResponseEntity
+  location: class 
+AuthController
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\repository\UserRep
+ository.java:4: error: 
+package org.springframe
+work.data.jpa.repositor
+y does not exist
+import org.springframew
+ork.data.jpa.repository
+.JpaRepository;
+                       
+                       
+^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\repository\UserRep
+ository.java:7: error: 
+cannot find symbol
+public interface 
+UserRepository extends 
+JpaRepository<User, 
+Long> {
+                       
+                 ^
+  symbol: class 
+JpaRepository
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\service\AuthServic
+e.java:15: error: 
+cannot find symbol
+    private 
+CustomerRepository 
+customerRepository;
+            ^
+  symbol:   class 
+CustomerRepository
+  location: class 
+AuthService
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\AuthCon
+troller.java:7: error: 
+package org.springframe
+work.web.bind.annotatio
+n does not exist
+import org.springframew
+ork.web.bind.annotation
+.*;
+^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\model\User.java:3:
+ error: package 
+jakarta.persistence 
+does not exist
+import 
+jakarta.persistence.*;
+^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\Booking
+Controller.java:5: 
+error: package org.spri
+ngframework.beans.facto
+ry.annotation does not 
+exist
+import org.springframew
+ork.beans.factory.annot
+ation.Autowired;
+                       
+                       
+     ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\Booking
+Controller.java:9: 
+error: cannot find 
+symbol
+@RestController
+ ^
+  symbol: class 
+RestController
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\Booking
+Controller.java:10: 
+error: cannot find 
+symbol
+@RequestMapping("/booki
+ngs")
+ ^
+  symbol: class 
+RequestMapping
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\Booking
+Controller.java:11: 
+error: cannot find 
+symbol
+@CrossOrigin(origins = 
+"*")
+ ^
+  symbol: class 
+CrossOrigin
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\service\BookingSer
+vice.java:8: error: 
+package org.springframe
+work.beans.factory.anno
+tation does not exist
+import org.springframew
+ork.beans.factory.annot
+ation.Autowired;
+                       
+                       
+     ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\service\BookingSer
+vice.java:9: error: 
+package org.springframe
+work.stereotype does 
+not exist
+import org.springframew
+ork.stereotype.Service;
+                       
+              ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\service\BookingSer
+vice.java:12: error: 
+cannot find symbol
+@Service
+ ^
+  symbol: class Service
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\Booking
+Controller.java:6: 
+error: package org.spri
+ngframework.web.bind.an
+notation does not exist
+import org.springframew
+ork.web.bind.annotation
+.*;
+^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\Custome
+rController.java:5: 
+error: package org.spri
+ngframework.beans.facto
+ry.annotation does not 
+exist
+import org.springframew
+ork.beans.factory.annot
+ation.Autowired;
+                       
+                       
+     ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\Custome
+rController.java:9: 
+error: cannot find 
+symbol
+@RestController
+ ^
+  symbol: class 
+RestController
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\Custome
+rController.java:10: 
+error: cannot find 
+symbol
+@RequestMapping("/custo
+mers")
+ ^
+  symbol: class 
+RequestMapping
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\Custome
+rController.java:11: 
+error: cannot find 
+symbol
+@CrossOrigin(origins = 
+"*")
+ ^
+  symbol: class 
+CrossOrigin
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\service\CustomerSe
+rvice.java:5: error: 
+package org.springframe
+work.beans.factory.anno
+tation does not exist
+import org.springframew
+ork.beans.factory.annot
+ation.Autowired;
+                       
+                       
+     ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\service\CustomerSe
+rvice.java:6: error: 
+package org.springframe
+work.stereotype does 
+not exist
+import org.springframew
+ork.stereotype.Service;
+                       
+              ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\service\CustomerSe
+rvice.java:9: error: 
+cannot find symbol
+@Service
+ ^
+  symbol: class Service
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\Custome
+rController.java:6: 
+error: package org.spri
+ngframework.web.bind.an
+notation does not exist
+import org.springframew
+ork.web.bind.annotation
+.*;
+^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\FoodCon
+troller.java:6: error: 
+package org.springframe
+work.beans.factory.anno
+tation does not exist
+import org.springframew
+ork.beans.factory.annot
+ation.Autowired;
+                       
+                       
+     ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\FoodCon
+troller.java:10: 
+error: cannot find 
+symbol
+@RestController
+ ^
+  symbol: class 
+RestController
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\FoodCon
+troller.java:11: 
+error: cannot find 
+symbol
+@RequestMapping("/foods
+")
+ ^
+  symbol: class 
+RequestMapping
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\FoodCon
+troller.java:12: 
+error: cannot find 
+symbol
+@CrossOrigin(origins = 
+"*")
+ ^
+  symbol: class 
+CrossOrigin
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\service\FoodServic
+e.java:9: error: 
+package org.springframe
+work.beans.factory.anno
+tation does not exist
+import org.springframew
+ork.beans.factory.annot
+ation.Autowired;
+                       
+                       
+     ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\service\FoodServic
+e.java:10: error: 
+package org.springframe
+work.stereotype does 
+not exist
+import org.springframew
+ork.stereotype.Service;
+                       
+              ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\service\FoodServic
+e.java:14: error: 
+cannot find symbol
+@Service
+ ^
+  symbol: class Service
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\repository\FoodIte
+mRepository.java:4: 
+error: package org.spri
+ngframework.data.jpa.re
+pository does not exist
+import org.springframew
+ork.data.jpa.repository
+.JpaRepository;
+                       
+                       
+^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\repository\FoodIte
+mRepository.java:6: 
+error: cannot find 
+symbol
+public interface 
+FoodItemRepository 
+extends JpaRepository<F
+oodItem, Long> {
+                       
+                     ^
+  symbol: class 
+JpaRepository
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\FoodCon
+troller.java:7: error: 
+package org.springframe
+work.web.bind.annotatio
+n does not exist
+import org.springframew
+ork.web.bind.annotation
+.*;
+^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\FoodCon
+troller.java:28: 
+error: cannot find 
+symbol
+@RestController
+ ^
+  symbol: class 
+RestController
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\FoodCon
+troller.java:29: 
+error: cannot find 
+symbol
+@RequestMapping("/order
+s")
+ ^
+  symbol: class 
+RequestMapping
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\FoodCon
+troller.java:30: 
+error: cannot find 
+symbol
+@CrossOrigin(origins = 
+"*")
+ ^
+  symbol: class 
+CrossOrigin
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\RoomCon
+troller.java:5: error: 
+package org.springframe
+work.beans.factory.anno
+tation does not exist
+import org.springframew
+ork.beans.factory.annot
+ation.Autowired;
+                       
+                       
+     ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\RoomCon
+troller.java:9: error: 
+cannot find symbol
+@RestController
+ ^
+  symbol: class 
+RestController
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\RoomCon
+troller.java:10: 
+error: cannot find 
+symbol
+@RequestMapping("/rooms
+")
+ ^
+  symbol: class 
+RequestMapping
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\RoomCon
+troller.java:11: 
+error: cannot find 
+symbol
+@CrossOrigin(origins = 
+"*")
+ ^
+  symbol: class 
+CrossOrigin
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\service\RoomServic
+e.java:5: error: 
+package org.springframe
+work.beans.factory.anno
+tation does not exist
+import org.springframew
+ork.beans.factory.annot
+ation.Autowired;
+                       
+                       
+     ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\service\RoomServic
+e.java:6: error: 
+package org.springframe
+work.stereotype does 
+not exist
+import org.springframew
+ork.stereotype.Service;
+                       
+              ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\service\RoomServic
+e.java:9: error: 
+cannot find symbol
+@Service
+ ^
+  symbol: class Service
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\controller\RoomCon
+troller.java:6: error: 
+package org.springframe
+work.web.bind.annotatio
+n does not exist
+import org.springframew
+ork.web.bind.annotation
+.*;
+^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\utils\DataSeeder.j
+ava:5: error: package o
+rg.springframework.boot
+ does not exist
+import org.springframew
+ork.boot.CommandLineRun
+ner;
+                       
+        ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\utils\DataSeeder.j
+ava:6: error: package o
+rg.springframework.ster
+eotype does not exist
+import org.springframew
+ork.stereotype.Componen
+t;
+                       
+              ^
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\utils\DataSeeder.j
+ava:11: error: cannot 
+find symbol
+public class 
+DataSeeder implements 
+CommandLineRunner {
+                       
+            ^
+  symbol: class 
+CommandLineRunner
+C:\Users\samud\OneDrive
+\Desktop\HotelManagemen
+tSystem\backend\src\mai
+n\java\com\hotel\manage
+ment\utils\DataSeeder.j
+ava:10: error: cannot 
+find symbol
+@Component
+ ^
+  symbol: class 
+Component
+100 errors
+only showing the first 
+100 errors, of 231 
+total; use -Xmaxerrs 
+if you would like to 
+see more
