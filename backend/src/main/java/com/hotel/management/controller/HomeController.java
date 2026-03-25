@@ -8,6 +8,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String home() {
-        return "Hotel Management System API is running. Please use the frontend at http://localhost:5173";
+        return "Hotel Management System API is running.";
     }
 }
